@@ -1,0 +1,94 @@
+
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+  }
+
+
+
+.main{
+
+	padding-top:10px;
+    width:auto;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+    border:0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    text-align: center;
+    transition-duration: 1s;
+     background: rgba(255,255,255);
+
+}
+
+h2{
+    padding-top: 30px;
+}
+
+
+
+.underline {
+    width: 200px;
+    height: 3px;
+    background-color: #009688;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+  }
+
+table{
+    margin: 0 auto;
+}
+
+input[type=text], select, input[type=password]
+{
+    font-family: Arial; 
+    outline: 0; 
+    background:white; 
+    width: 300px; 
+    border: 0.5px; 
+    margin-left: 20px;
+    margin-top:10px;
+    padding:10px; 
+    box-sizing: border-box; 
+    font-size: 14px; 
+    height: 35px;
+    border:1px solid #0086BC;
+}
+
+
+select:focus{ 
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); 
+
+}
+
+input[type=text]:focus{ 
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); 
+
+}
+
+button, input[type=submit] { 
+     background-color: #0086BC;
+    border: 1px solid white;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    transition-duration: 0.5s;
+    cursor: pointer;   
+    font-weight:bold;
+    color:white;
+    font-weight:bold;
+  } 
+ 
+  input[type=submit]:hover, input[type=submit]:active, input[type=submit]:focus ,button:hover, button:active, button:focus {  
+    border-radius:10px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  } 
+

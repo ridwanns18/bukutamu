@@ -1,0 +1,187 @@
+
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: Arial;
+	
+  }
+
+
+  #fil_lihat {
+    background: white;
+    padding:20px;
+    height: 100%;
+    transition-duration: 0.5s;
+}
+
+#judul_tabel{
+    font-size:20px;
+    font-style:italic;
+    font-weight:bold;
+    color: black;
+}
+
+tr.list td a{
+font-size:12px;
+text-decoration:none;
+}
+
+table.lihat{
+	width:100%;  
+    color: #444;
+    border-collapse: collapse;
+}
+
+table.lihat tr.menu{
+	background: white;
+    color: black;
+    font-weight: normal;
+    height: 50px;
+    font-size: 14px;
+	font-weight:bold;
+	border-bottom: 2px solid silver;
+}
+
+table.lihat tr.a{
+font-size:12px;
+padding: 8px 20px;
+height: 45px;
+background: #F0F8FF;
+
+}
+
+table.lihat tr.a:hover{
+background: #EFEFEF;
+font-size:12px;
+
+}
+
+
+table.lihat tr.b{
+font-size:12px;
+padding: 8px 20px;
+height: 45px;
+background: white;
+}
+
+table.lihat tr.b:hover{
+  background: #EFEFEF;;
+    font-size:12px;
+
+}
+
+img
+{
+width:25px;
+height:25px;
+}
+
+p.jumlah-data
+{
+font-weight:bold;
+}
+
+a.page
+{
+color: navy;
+font-weight:bold;
+text-decoration:none;
+}
+span.page
+{
+text-decoration:none;
+}
+
+div.footer
+{
+background:#3A3A3A;
+color:white;
+width:100%;
+height:90px;
+float:left;
+text-align:center;
+}
+
+a.link
+{
+color:yellow;
+}
+
+input.tombol-cari{width:25px; height:25px; float:right; margin-left: 10px; border-radius:5px;}
+input.tombol{width:25px; height:25px; border-radius:5px;}
+input.icon{width:25px; height:25px;}
+
+
+
+div.cari
+{
+float:right;
+}
+input.kolom_cari
+{
+padding: 8px 6px;
+height: 40px;
+width:280px;
+    background: #fff;
+    border: 1px solid navy;
+    font-size: 14px;
+    line-height: 1.2em;
+    margin-bottom:15px;
+    height:30px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset, 0 1px 0 rgba(255, 255, 255, 0.2);
+    opacity:0.6;
+}
+input.kolom_cari:focus
+{ background:#f5fcfe;
+    text-indent: 0;
+    z-index: 1;
+    color: #373737;
+    -webkit-transition-duration: 400ms;
+    -webkit-transition-property: width, background;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-duration: 400ms;
+    -moz-transition-property: width, background;
+    -moz-transition-timing-function: ease;
+    -o-transition-duration: 400ms;
+    -o-transition-property: width, background;
+    -o-transition-timing-function: ease;
+    
+}
+
+button{
+    background-color: #0086BC;
+    border: 1px solid white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    transition-duration: 0.5s;
+    cursor: pointer;   
+    font-weight:bold;
+    color:white;
+    font-weight:bold;
+  }
+
+button:hover{
+	border-radius:10px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+ 
+
+text.judul{
+float:right;
+margin-top:5px;
+margin-left: 10px;
+}
+
+td.judul_a{
+	border: 1px solid grey;
+}

@@ -1,0 +1,117 @@
+
+*{
+    margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family:sans-serif;
+}
+
+.login{
+   
+    width: 100%;
+    height: 93%;
+    background: #ffff; 
+
+}
+    
+    
+ .logo {
+    width: 50px;
+    cursor: pointer;
+  }
+    
+.form
+{
+    float: right;
+    margin-top: 100px;
+    margin-right: 38%;
+    padding-top: 20px;
+    width: 320px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); 
+    text-align: center;
+  }
+
+.form h2
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+  .form input[type=text], input[type=password] { 
+
+    font-family: "Roboto", sans-serif; 
+    outline: 0; 
+    background: #f2f2f2; 
+    width: 100%; 
+    border: 0; 
+    margin-left: 40px;
+    margin-top:10px; 
+    padding: 15px; 
+    box-sizing: border-box; 
+    font-size: 14px; 
+  } 
+
+  .form input[type=text]:focus ,input[type=password]:focus { 
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); 
+
+}
+  button { 
+    font-family: "Roboto", sans-serif; 
+    text-transform: uppercase; 
+    outline: 0; 
+    background: grey; 
+    width: 100%; 
+    border: 0; 
+    margin-left: 40px;
+    margin-top:10px; 
+    padding: 15px; 
+    color: #FFFFFF; 
+    font-size: 14px; 
+    -webkit-transition: all 0.3 ease; 
+    transition: all 0.3 ease; 
+    cursor: pointer; 
+  } 
+ 
+  button:hover, button:active, button:focus {  
+    background: #6C6A6A; 
+  } 
+
+
+p{
+margin-top:0;
+font-family:'Segoe UI', Arial, sans-serif; 
+font-size:12px;
+float:right;
+padding-right:20px;
+}
+.copyleft {
+  display:inline-block;
+  transform: rotate(180deg);
+}
+
+
+div.footer
+{
+
+	background:grey;
+	color:white;
+	width:100%;
+	height:46px;
+	float:left;
+	padding-left:20px;
+}
+a.link
+{
+	color:yellow;
+	text-decoration:none;
+}
+a.linka
+{
+	color:white;
+	text-decoration:none;
+}
+
+
